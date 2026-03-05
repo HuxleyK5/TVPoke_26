@@ -6,7 +6,7 @@ class Gloom(Grass, Poison):
         moves = [
             Move("Absorb", "NORMAL", 60),
             Move("Leaf Storm", "NORMAL", 80),
-            Move("Poison Powder", "WATER", 80),
-            Move("Acid", "NORMAL", 0)
+            Move("Poison Powder", "POISON", 80),
+            Move("Acid", "POISON", 60)
         ]
         super().__init__("Gloom", 140, moves, "./TVPoke/Pokemon/imgs/Feraligatr.png")
